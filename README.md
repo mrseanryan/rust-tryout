@@ -16,6 +16,8 @@ https://doc.rust-lang.org/book/index.html
 
 https://nostarch.com/Rust2018
 
+https://rust-unofficial.github.io/too-many-lists/
+
 #### Rust UI
 https://azul.rs/
 https://github.com/ivanceras/sauron-native
