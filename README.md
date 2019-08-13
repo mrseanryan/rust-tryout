@@ -14,6 +14,8 @@ https://doc.rust-lang.org/book/ch01-01-installation.html
 
 https://doc.rust-lang.org/book/index.html
 
+https://github.com/rust-lang/book/
+
 https://nostarch.com/Rust2018
 
 https://rust-unofficial.github.io/too-many-lists/
