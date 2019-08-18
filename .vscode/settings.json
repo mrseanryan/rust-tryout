@@ -1,5 +1,6 @@
 {
-    "search.exclude": {
-        "**/*.rcgu.o": true
+    "files.exclude": {
+        "**/*.rcgu.o": true,
+        "**/target": true
     }
 }
