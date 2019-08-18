@@ -18,7 +18,6 @@ fn main() {
 // TODO review is there a better API?
 fn generate_gifts(day: usize) -> String {
     let gifts = [
-        "(unused)",
         "two turtle doves",
         "three french hens",
         "four calling birds",
@@ -34,7 +33,7 @@ fn generate_gifts(day: usize) -> String {
 
     let mut verse = Vec::new();
 
-    for gift in (1..day + 1).rev() {
+    for gift in (0..day).rev() {
         verse.push(gifts[gift]);
     }
 
