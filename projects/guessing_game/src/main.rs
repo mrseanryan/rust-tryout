@@ -16,7 +16,7 @@ fn main() {
 
         println!("You guessed: {}", guess);
 
-        let is_done = is_guess_correct(guess, secret_number, &mut guesses);
+        let is_done = is_guess_correct(guess, secret_number, guesses);
 
         if is_done {
             break;
@@ -44,7 +44,7 @@ fn get_next_guess() -> i32 {
     return guess;
 }
 
-fn is_guess_correct(guess: i32, secret_number: i32, guesses: &mut i32) -> bool {
+fn is_guess_correct(guess: i32, secret_number: i32, guesses: i32) -> bool {
     match guess.cmp(&secret_number) {
         Ordering::Less => {
             println!("Too small!");
