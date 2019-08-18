@@ -18,12 +18,12 @@ fn main() {
     }
 }
 
-fn get_nth_fibonacci(desired_index: i32) -> i32 {
+fn get_nth_fibonacci(desired_index: u32) -> usize {
     let mut current_index = 0;
 
     let mut preceding = 0;
     let mut previous_preceding = 1;
-    let mut next: i32;
+    let mut next;
 
     loop {
         next = preceding + previous_preceding;
@@ -42,7 +42,7 @@ fn get_nth_fibonacci(desired_index: i32) -> i32 {
     next
 }
 
-fn get_number_from_keyboard() -> (i32, bool) {
+fn get_number_from_keyboard() -> (u32, bool) {
     // mutable, on the heap (not 's'tring)
     let mut number = String::new();
 
