@@ -25,7 +25,17 @@ https://azul.rs/
 https://github.com/ivanceras/sauron-native
 https://areweguiyet.com/
 
+## exercise resources
+
+### fibonacci sequence
+
+https://www.geeksforgeeks.org/program-for-nth-fibonacci-number/
+
+#### SICP
+
+https://github.com/mrseanryan/SICP/blob/master/src/exercises/sean/ex1.13.rkt
+https://github.com/mrseanryan/SICP/blob/master/src/exercises/sean/ex1.19.rkt
+
 # license
 
 MIT
-
