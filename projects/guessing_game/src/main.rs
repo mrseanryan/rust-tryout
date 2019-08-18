@@ -5,7 +5,7 @@ use std::io;
 fn main() {
     println!("Guess the secret number");
 
-    let secret_number = rand::thread_rng().gen_range(1, 100 + 1);
+    let secret_number = get_secret_number(1, 100);
     let mut guesses = 0;
 
     loop {
@@ -22,6 +22,10 @@ fn main() {
             break;
         }
     }
+}
+
+fn get_secret_number(min: i32, max: i32) -> i32 {
+    rand::thread_rng().gen_range(min, max + 1)
 }
 
 fn get_next_guess() -> i32 {
