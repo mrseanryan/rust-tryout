@@ -11,3 +11,4 @@ Cargo.lock
 
 # Rust compile output
 **/main
+**/*.rcgu.o
