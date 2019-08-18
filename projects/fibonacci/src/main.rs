@@ -18,7 +18,7 @@ fn main() {
     }
 }
 
-fn get_nth_fibonacci(desired_index: u32) -> usize {
+fn get_nth_fibonacci(desired_index: u32) -> u128 {
     let mut current_index = 0;
 
     let mut preceding = 0;
