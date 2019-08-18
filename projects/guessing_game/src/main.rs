@@ -6,15 +6,17 @@ fn main() {
     println!("Guess the secret number");
 
     let secret_number = rand::thread_rng().gen_range(1, 100 + 1);
+    let mut guesses = 0;
 
     loop {
         println!("Please input your guess [1..100]");
 
         let guess = get_next_guess();
+        guesses += 1;
 
         println!("You guessed: {}", guess);
 
-        let is_done = is_guess_correct(guess, secret_number);
+        let is_done = is_guess_correct(guess, secret_number, &mut guesses);
 
         if is_done {
             break;
@@ -42,7 +44,7 @@ fn get_next_guess() -> i32 {
     return guess;
 }
 
-fn is_guess_correct(guess: i32, secret_number: i32) -> bool {
+fn is_guess_correct(guess: i32, secret_number: i32, guesses: &mut i32) -> bool {
     match guess.cmp(&secret_number) {
         Ordering::Less => {
             println!("Too small!");
@@ -53,7 +55,7 @@ fn is_guess_correct(guess: i32, secret_number: i32) -> bool {
             false
         }
         Ordering::Equal => {
-            println!("You win!");
+            println!("You win! - after {} guesses", guesses);
             true
         }
     }
