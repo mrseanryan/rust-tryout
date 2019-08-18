@@ -18,7 +18,7 @@ fn main() {
 // TODO review is there a better API?
 fn generate_gifts(day: usize) -> String {
     let gifts = [
-        "a partridge in a pear tree",
+        "(unused)",
         "two turtle doves",
         "three french hens",
         "four calling birds",
@@ -34,9 +34,22 @@ fn generate_gifts(day: usize) -> String {
 
     let mut verse = Vec::new();
 
-    for gift in (0..day + 1).rev() {
+    for gift in (1..day + 1).rev() {
         verse.push(gifts[gift]);
     }
 
-    verse.join(", ")
+    let is_first_day_only = day == 0;
+
+    let first_day = if is_first_day_only {
+        "a partridge in a pear tree"
+    } else {
+        " and a partridge in a pear tree"
+    };
+    let first_day = String::from(first_day);
+
+    let mut verse = verse.join(", ");
+
+    verse.push_str(&first_day);
+
+    verse
 }
