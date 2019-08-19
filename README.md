@@ -16,6 +16,8 @@ https://doc.rust-lang.org/book/index.html
 
 https://github.com/rust-lang/book/
 
+https://blog.rust-lang.org/
+
 https://nostarch.com/Rust2018
 
 https://rust-unofficial.github.io/too-many-lists/
