@@ -24,6 +24,14 @@ https://nostarch.com/Rust2018
 
 https://rust-unofficial.github.io/too-many-lists/
 
+#### Rust projects
+
+https://docs.rs/reqwest/0.9.20/reqwest/
+
+https://serde.rs/
+
+https://docs.rs/lazy_static/1.3.0/lazy_static/
+
 #### Rust UI
 https://azul.rs/
 https://github.com/ivanceras/sauron-native
