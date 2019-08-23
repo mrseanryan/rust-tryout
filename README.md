@@ -18,6 +18,8 @@ https://github.com/rust-lang/book/
 
 https://blog.rust-lang.org/
 
+https://rust-lang-nursery.github.io/rust-cookbook/
+
 https://nostarch.com/Rust2018
 
 https://rust-unofficial.github.io/too-many-lists/
