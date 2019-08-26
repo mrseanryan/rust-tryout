@@ -32,6 +32,12 @@ https://serde.rs/
 
 https://docs.rs/lazy_static/1.3.0/lazy_static/
 
+#### Rust & embedded systems
+
+https://docs.rust-embedded.org/discovery/
+
+https://docs.rust-embedded.org/book/
+
 #### Rust UI
 https://azul.rs/
 https://github.com/ivanceras/sauron-native
