@@ -24,13 +24,17 @@ https://nostarch.com/Rust2018
 
 https://rust-unofficial.github.io/too-many-lists/
 
-#### Rust projects
+#### Rust libraries
+
+https://async.rs/blog/announcing-async-std/
+
+https://github.com/rust-cli/human-panic
+
+https://docs.rs/lazy_static/1.3.0/lazy_static/
 
 https://docs.rs/reqwest/0.9.20/reqwest/
 
 https://serde.rs/
-
-https://docs.rs/lazy_static/1.3.0/lazy_static/
 
 #### Rust & embedded systems
 
@@ -42,6 +46,10 @@ https://docs.rust-embedded.org/book/
 https://azul.rs/
 https://github.com/ivanceras/sauron-native
 https://areweguiyet.com/
+
+#### Rust community
+
+https://www.reddit.com/r/rust/
 
 ## exercise resources
 
