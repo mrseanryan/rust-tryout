@@ -10,17 +10,27 @@ OS: Ubuntu 18.04
 
 https://doc.rust-lang.org/book/ch01-01-installation.html
 
-### rust
+### rust news
+
+https://blog.rust-lang.org/
+
+https://this-week-in-rust.org
+
+### rust books
+
+#### rust 2018
 
 https://doc.rust-lang.org/book/index.html
 
 https://github.com/rust-lang/book/
 
-https://blog.rust-lang.org/
+https://nostarch.com/Rust2018
+
+#### rust cookbook
 
 https://rust-lang-nursery.github.io/rust-cookbook/
 
-https://nostarch.com/Rust2018
+#### rust too-many-lists
 
 https://rust-unofficial.github.io/too-many-lists/
 
