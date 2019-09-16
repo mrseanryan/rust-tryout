@@ -1,10 +1,18 @@
 use a_or_an_lib;
 
 fn main() {
-    println!("a or an");
+    println!("= a or an =");
+    println!("===========");
 
+    test("alien");
     test("antelope");
+    test("EU");
+    test("FIFA");
+    test("herb");
+    test("hotel");
+    test("MIA");
     test("UFO");
+    test("UN");
     test("umbrella");
     test("user");
 }
