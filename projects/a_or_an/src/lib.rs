@@ -138,3 +138,43 @@ fn starts_with_vowel(word: &str) -> bool
 
 // TODO other
 // ref: https://github.com/tandrewnichols/indefinite/blob/master/lib/rules/other.js
+
+#[cfg(test)]
+mod tests {
+    use super::*;
+
+    #[test]
+    fn common_words() {
+        assert_eq!(
+            "an",
+            get_a_or_an("antelope")
+        );
+    }
+
+macro_rules! tests {
+    ($($name:ident: $value:expr,)*) => {
+    $(
+        #[test]
+        fn $name() {
+            let (input, expected) = $value;
+            assert_eq!(expected, get_a_or_an(input));
+        }
+    )*
+    }
+}
+
+    tests! {
+        test_0: ("alien", "an"),
+        test_1: ("antelope", "an"), 
+        test_2: ("EU", "an"),
+        test_3: ("FIFA", "an"),
+        test_4: ("herb", "an"), // USA not UK
+        test_5: ("hotel", "a"),
+        test_6: ("MIA", "an"),
+        test_7: ("MNM", "an"),
+        test_8: ("UFO", "a"),
+        test_9: ("UN", "a"),
+        test_10: ("umbrella", "an"),
+        test_11: ("user", "a"),
+    }
+}
