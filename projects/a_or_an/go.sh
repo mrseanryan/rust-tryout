@@ -1,1 +1,1 @@
-cargo run
+cargo run $1 $2 $3 $4
