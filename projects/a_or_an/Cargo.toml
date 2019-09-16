@@ -1,0 +1,13 @@
+[package]
+name = "a_or_an"
+version = "0.1.0"
+authors = ["sean <str_ie@yahoo.co.uk>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+
+[lib]
+name = "a_or_an_lib"
+path = "src/lib.rs"
