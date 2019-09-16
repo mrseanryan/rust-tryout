@@ -4,6 +4,8 @@ fn main() {
     println!("a or an");
 
     test("antelope");
+    test("UFO");
+    test("umbrella");
     test("user");
 }
 
