@@ -34,6 +34,10 @@ https://rust-lang-nursery.github.io/rust-cookbook/
 
 https://rust-unofficial.github.io/too-many-lists/
 
+#### Rustonomicon (unsafe rust) 
+
+https://doc.rust-lang.org/stable/nomicon/
+
 #### Rust libraries
 
 https://async.rs/blog/announcing-async-std/
