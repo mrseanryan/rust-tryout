@@ -4,7 +4,7 @@ source $HOME/.cargo/env
 
 echo export PATH="\$HOME/.cargo/env:\$PATH" >> $HOME/.bashrc
 
-rustup update
+rustup update stable
 
 rustc --version
 
