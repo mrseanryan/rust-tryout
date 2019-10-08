@@ -50,6 +50,16 @@ https://docs.rs/reqwest/0.9.20/reqwest/
 
 https://serde.rs/
 
+#### Rust frameworks
+
+[Rocket web framework](https://rocket.rs/)
+
+#### Rust ORMs (for using database)
+
+[diesel orm](http://diesel.rs/) - sqllite, postgres
+
+[rustorm](https://docs.rs/rustorm/0.4.2/rustorm/)
+
 #### Rust & embedded systems
 
 https://docs.rust-embedded.org/discovery/
