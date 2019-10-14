@@ -38,7 +38,13 @@ https://rust-unofficial.github.io/too-many-lists/
 
 https://doc.rust-lang.org/stable/nomicon/
 
-#### Rust libraries
+### rust references
+
+https://cheats.rs/
+
+### Rust libraries
+
+#### General libraries
 
 https://async.rs/blog/announcing-async-std/
 
@@ -60,18 +66,18 @@ https://serde.rs/
 
 [rustorm](https://docs.rs/rustorm/0.4.2/rustorm/)
 
-#### Rust & embedded systems
+### Rust & embedded systems
 
 https://docs.rust-embedded.org/discovery/
 
 https://docs.rust-embedded.org/book/
 
-#### Rust UI
+### Rust UI
 https://azul.rs/
 https://github.com/ivanceras/sauron-native
 https://areweguiyet.com/
 
-#### Rust community
+### Rust community
 
 https://www.reddit.com/r/rust/
 
