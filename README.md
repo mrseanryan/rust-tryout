@@ -66,6 +66,10 @@ https://serde.rs/
 
 [rustorm](https://docs.rs/rustorm/0.4.2/rustorm/)
 
+#### Rust API libraries
+
+[rusoto = AWS API](https://github.com/rusoto/rusoto)
+
 ### Rust & embedded systems
 
 https://docs.rust-embedded.org/discovery/
