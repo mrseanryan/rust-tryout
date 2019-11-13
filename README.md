@@ -60,6 +60,8 @@ https://serde.rs/
 
 [Rocket web framework](https://rocket.rs/)
 
+[yew](https://github.com/yewstack/yew)(elm,react,wasm)
+
 #### Rust ORMs (for using database)
 
 [diesel orm](http://diesel.rs/) - sqllite, postgres
