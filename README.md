@@ -56,6 +56,8 @@ https://docs.rs/reqwest/0.9.20/reqwest/
 
 https://serde.rs/
 
+https://github.com/tokio-rs/tokio
+
 #### Rust frameworks
 
 [Rocket web framework](https://rocket.rs/)
