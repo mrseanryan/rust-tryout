@@ -26,6 +26,8 @@ https://github.com/rust-lang/book/
 
 https://nostarch.com/Rust2018
 
+https://www.manning.com/books/rust-in-action
+
 #### rust cookbook
 
 https://rust-lang-nursery.github.io/rust-cookbook/
