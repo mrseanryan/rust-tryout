@@ -70,6 +70,8 @@ https://github.com/tokio-rs/tokio
 
 [ggez](https://ggez.rs/)
 
+[rust dungeons and dragons](http://bfnightly.bracketproductions.com/rustbook/chapter_0.html)
+
 #### Rust ORMs (for using database)
 
 [diesel orm](http://diesel.rs/) - sqllite, postgres
